@@ -3,7 +3,7 @@
 		var body_element = document.getElementsByTagName('body')[0];
 		var selection;
 		selection = window.getSelection();
-		var pagelink = "<br /><br /> Chào! LH 0975 983 789 Hoặc Muốn Copy Vào Đây Nhé: <a href='"+document.location.href+"'>"+document.location.href.pathname+"</a>";
+		var pagelink = "<br /><br /> Chào! LH 0975 983 789 Hoặc Muốn Copy Vào Đây Nhé: <a href='"+document.location.href+"'>http://"+document.location.pathname+"</a>";
 		var copytext = pagelink;
 		var newdiv = document.createElement('div');
 		

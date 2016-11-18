@@ -1,4 +1,4 @@
-﻿	function chothuepnp.com() {
+﻿	function chothuepnp() {
 		//Get the selected text and append the extra info
 		var body_element = document.getElementsByTagName('body')[0];
 		var selection;
@@ -20,4 +20,4 @@
 			body_element.removeChild(newdiv);
 		},0);
 	}
-document.oncopy = chothuepnp.com;
+document.oncopy = chothuepnp;
